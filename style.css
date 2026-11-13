@@ -38,6 +38,10 @@ body {
   white-space: nowrap;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -174,27 +178,6 @@ h1 {
   margin: 0;
 }
 
-@media (max-width: 680px) {
-  .site-header {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-
-  .nav-list {
-    justify-content: flex-start;
-    gap: 0.75rem 1.1rem;
-  }
-
-  .hero {
-    padding: 5rem 0;
-  }
-
-  .projects-page {
-    padding: 3.5rem 0;
-  }
-}
-
 @media (max-width: 700px) {
   .site-header {
     position: relative;
@@ -246,10 +229,12 @@ h1 {
   .site-nav.is-open .nav-list {
     display: flex;
   }
-}
 
-@media (min-width: 701px) {
-  .menu-toggle {
-    display: none;
+  .hero {
+    padding: 5rem 0;
+  }
+
+  .projects-page {
+    padding: 3.5rem 0;
   }
 }

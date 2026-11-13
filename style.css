@@ -178,6 +178,25 @@ h1 {
   margin: 0;
 }
 
+.field-error {
+  display: block;
+  margin-top: 0.4rem;
+  color: #9b1c1c;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.field-error[hidden],
+.form-success[hidden] {
+  display: none;
+}
+
+.form-success {
+  color: #285b36;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 @media (max-width: 700px) {
   .site-header {
     position: relative;

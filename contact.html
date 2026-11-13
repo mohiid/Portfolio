@@ -28,21 +28,25 @@
       <h1 id="contact-heading">Contact</h1>
       <p class="intro">Email me at <a href="mailto:mohidroll@gmail.com">mohidroll@gmail.com</a>.</p>
 
-      <form>
+      <form class="contact-form" novalidate>
         <p>
           <label for="name">Name</label><br>
-          <input type="text" id="name" name="name" autocomplete="name">
+          <input type="text" id="name" name="name" autocomplete="name" aria-describedby="name-error">
+          <span class="field-error" id="name-error" role="alert" hidden></span>
         </p>
         <p>
           <label for="email">Email</label><br>
-          <input type="email" id="email" name="email" autocomplete="email">
+          <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-error">
+          <span class="field-error" id="email-error" role="alert" hidden></span>
         </p>
         <p>
           <label for="message">Message</label><br>
-          <textarea id="message" name="message" rows="5"></textarea>
+          <textarea id="message" name="message" rows="5" aria-describedby="message-error"></textarea>
+          <span class="field-error" id="message-error" role="alert" hidden></span>
         </p>
         <button type="submit">Send</button>
       </form>
+      <p class="form-success" role="status" aria-live="polite" hidden></p>
       <p>This form does not send messages. Please email me directly.</p>
     </article>
   </main>

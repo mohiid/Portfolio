@@ -194,3 +194,62 @@ h1 {
     padding: 3.5rem 0;
   }
 }
+
+@media (max-width: 700px) {
+  .site-header {
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .site-nav {
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.85rem;
+    border: 1px solid #b98412;
+    border-radius: 0.4rem;
+    background: #fff;
+    color: #454545;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .menu-toggle:focus-visible {
+    outline: 2px solid #b98412;
+    outline-offset: 3px;
+  }
+
+  .nav-list {
+    position: absolute;
+    z-index: 1;
+    top: calc(100% - 0.5rem);
+    right: 0;
+    display: none;
+    min-width: 12rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+    border: 1px solid #eee9dc;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1.5rem rgb(36 36 36 / 10%);
+  }
+
+  .site-nav.is-open .nav-list {
+    display: flex;
+  }
+}
+
+@media (min-width: 701px) {
+  .menu-toggle {
+    display: none;
+  }
+}

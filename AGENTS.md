@@ -15,3 +15,4 @@ Use a simple, modern style with a smooth white gradient and a small yellow accen
 
 ## Git
 After each task, commit with a clear message, then push to GitHub.
+- JavaScript lives in `script.js`.

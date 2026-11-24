@@ -4,11 +4,11 @@ Run all tests on the live GitHub Pages site: https://mohiid.github.io/Portfolio/
 
 | ID | Testing | Steps | Expected | Result |
 | --- | --- | --- | --- | --- |
-| T1 | Navigation links — Home | Open Home. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Not run |
-| T2 | Navigation links — About | Open About Me. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Not run |
-| T3 | Navigation links — Projects | Open Projects. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Not run |
-| T4 | Navigation links — Skills | Open Skills. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Not run |
-| T5 | Navigation links — Contact | Open Contact. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Not run |
+| T1 | Navigation links — Home | Open Home. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Pass |
+| T2 | Navigation links — About | Open About Me. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Pass |
+| T3 | Navigation links — Projects | Open Projects. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Pass |
+| T4 | Navigation links — Skills | Open Skills. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Pass |
+| T5 | Navigation links — Contact | Open Contact. Click each navigation link: Home, About Me, Projects, Skills, and Contact. | Each link opens its matching page, and no page returns a 404. | Pass |
 | T6 | Layout — Home | Open Home in a laptop-sized browser window, then use responsive mode at 375px wide. Check horizontal scrolling and text readability at each size. | No sideways scrolling occurs, and all text is readable at both sizes. | Not run |
 | T7 | Layout — About | Open About Me in a laptop-sized browser window, then use responsive mode at 375px wide. Check horizontal scrolling and text readability at each size. | No sideways scrolling occurs, and all text is readable at both sizes. | Not run |
 | T8 | Layout — Projects | Open Projects in a laptop-sized browser window, then use responsive mode at 375px wide. Check horizontal scrolling and text readability at each size. | No sideways scrolling occurs, and all text is readable at both sizes. | Not run |
